@@ -83,45 +83,37 @@ body {
     padding: 20px;
 }
 
-.missao-valores {
+section {
     background-color: #ffffff;
-    padding: 20px;
+    padding: 25px;
     border-radius: 12px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
 
-.objetivos {
+.importante {
     display: flex;
     gap: 20px;
     margin: 10px 0;
 }
 
-.card {
-    background-color: #f5f8ff;
+.card-meta {
+    background-color: #eef5ff;
     padding: 20px;
     border-radius: 10px;
-    border-left: 5px solid #2e4c82;
+    border-left: 5px solid #2a5298;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     flex: 1;
 }
-.horas-atividades {
-    background-color: white;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-    padding-bottom: 35px;
+.recompensas ul {
+    list-style: none;
+    padding: 0;
 }
-
-.horas-atividades h3{
-    margin-bottom: 10px;
-}
-
-.atividade {
-    background-color: #d8f3dc;
-    color: #1b6f3c;
-    padding: 12px;
-    border-radius: 6px;
-    margin-top: 10px;
-    font-weight: 500;
+.recompensas li {
+    background: #e9f7ef; 
+    margin: 8px 0; 
+    padding: 10px;
+    border-radius: 5px; 
+    color: #27ae60; 
+    font-weight: bold;
 }
