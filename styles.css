@@ -154,3 +154,60 @@ th {
     border-radius: 4px;
     background-color: yellow;
 }
+.lista-kit {
+    list-style: none;
+    padding: 20px 25px;
+    background-color: #fff8dc; 
+    border: 2px dashed #f4c300; 
+    border-radius: 10px;
+}
+
+.lista-kit li {
+    margin-bottom: 12px;
+    color: #8a6d1d;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.suplementos {
+    background-color: #faefef;
+    border-left: 5px solid #FF4A2F;
+}
+
+.lista-provas {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-provas li {
+    color: #8a6d1d;
+    margin-bottom: 5px;
+}
+
+.provas p {
+    font-size: 0.85rem;
+}
+
+.provas2 {
+    background-color: #fcf7e5;
+    border-left: 5px solid #f4c300;
+}
+
+.provas2 p {
+    font-size: 0.85rem;
+}
+
+footer {
+    background-color: #1e3c72;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 15px;
+    border-top: 4px solid #f4c300;
+}
+
+footer p {
+    margin: 5px 0; 
+    font-size: 0.9rem;
+}
