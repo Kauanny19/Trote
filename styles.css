@@ -154,6 +154,12 @@ th {
     border-radius: 4px;
     background-color: yellow;
 }
+.box-cinza {
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    background-color: gray;
+}
 .lista-kit {
     list-style: none;
     padding: 20px 25px;
@@ -210,4 +216,44 @@ footer {
 footer p {
     margin: 5px 0; 
     font-size: 0.9rem;
+}
+
+.evento {
+    margin-bottom: 25px;
+    position: relative; /* Move o elemento HTML sem alterar elementos ao lado */
+}
+
+.evento::before{ /* Cria elemento fantasma - aparece como primeiro elemento */
+    content: ''; /* Modo arquiteto */
+    width: 12px;
+    height: 12px;
+    background: #ff4b2b;
+    border-radius: 50%;
+    position: absolute;
+    left: -28px;
+    top: 5px;
+}
+
+.timeline {
+    border-left: 3px solid #2a5298;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.grid-locais {
+    display: flex;
+    gap: 20px;
+}
+
+.unidade {
+    flex: 1;
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+}
+
+.unidade h4 {
+    color: #2a5298;
+    margin-top: 0;
 }
