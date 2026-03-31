@@ -160,6 +160,48 @@ th {
     border-radius: 4px;
     background-color: gray;
 }
+.box-laranja {
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    background-color: orange;
+}
+.box-marrom {
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    background-color: brown;
+}
+.box-preta {
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    background-color: black;
+}
+.box-rosa {
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    background-color: deeppink;
+}
+.box-roxa {
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    background-color: purple;
+}
+.box-verde {
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    background-color: greenyellow;
+}
+.box-vermelha {
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    background-color: red;
+}
 .lista-kit {
     list-style: none;
     padding: 20px 25px;
@@ -256,4 +298,69 @@ footer p {
 .unidade h4 {
     color: #2a5298;
     margin-top: 0;
+}
+
+/* Formato */
+
+.card-etapas {
+    padding: 0;
+    background-color: #f4f7f6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.card-etapas div {
+    background-color: #eef5ff;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 5px solid #2a5298;
+    flex: 1;
+}
+
+.etapas td {
+    padding: 6px 10px;
+    text-align: left;
+    border-bottom: none;
+    color: #8a6d1d;
+}
+.card-medalhas {
+    background-color: #faf6ea;
+    border-left: 5px solid #ffd83a;
+}
+
+/* Calculadora */
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100px;
+}
+
+button {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.resultado-box {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #eef5ff;
+    border-left: 5px solid #1e3c72;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
